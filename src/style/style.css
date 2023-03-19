@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    height: 100vh;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+header::after {
+    content: '';
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: url("../assets/frame.png") no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    height: 100px;
+}
+
+header h2, header p {	
+    /* font-family: 'Bungee Shade', cursive; */
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 4px 3px 6px #000000;
+}
+
+header p {
+    font-size: 2rem;
+    margin-top: 2%;
+    max-width: 400px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    height: 80%;
+    /* background: url('../assets//frame.png') no-repeat center; */
+    /* background-size: 30%; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+    display: inline-block;
+    border-right: 3px solid #000000;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    animation: typing 1s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 6rem;
+    text-align: center;
+    background: #00B5F7;
+    background: linear-gradient(to top left, #00B5F7 0%, #863BEF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    font-size: 2.2rem;
+    font-family: 'Rajdhani', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5%;
+    background: #00B5F7;
+    background: linear-gradient(to top left, #00B5F7 0%, #863BEF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s all ease;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border: transparent;
+    background-color: transparent;
+}
+
+header div img {
+    width: 45px;
+    height: 45px;
+}
+
+
+/* reveal css */
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* card */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4% 0 2% 0;
+}
+
+.little {
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 25%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    border-bottom: 8px solid transparent;
+    border-image: linear-gradient(0.25turn, #00B5F7, #863BEF) 1;
+    border-image-slice: 1;
+    margin: 10px;
+    transition: 0.8s all ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-header img {
+    width: 80px;
+    height: 80px;
+    margin: 5%;
+}
+
+.card h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2% 0;
+    background: #00B5F7;
+    background: linear-gradient(to top left, #00B5F7 0%, #863BEF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 5%;
+}
+
+.card p {
+    font-size: 2rem;
+    margin: 2% 1%;
+    padding: 8px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.div-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    width: 70%;
+    margin: 5% auto;
+}
+
+footer {
+    padding: 8px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer div {
+    margin: 0 2%;
+}
+
+.nav-footer a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.icon-link a {
+    color: #000000;
+}
+
+.arrow-down {
+    display: none;
+}
+
+.arrow-down.active {
+    display: block;
+    width: 50px;
+    height: 50px;
+    bottom: 3%;
+    right: 1%;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, #00B5F7 0%, #863BEF 100%);
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+}
+
+/* responsive little phone */
+@media screen and (max-width: 340px) {
+
+    .nav-active {
+        left: 76% !important;
+    }
+
+    .card-header img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card p {
+        font-size: 1.8rem;
+    }
+
+    .nav-footer {
+        padding: 10px;
+    }
+}
+
+
+/* responsive classique phone */
+@media screen and (max-width: 425px) {
+
+    header::after {
+        background-size: cover;
+        background-position: 44%;
+    }
+
+    header h2, header p {	
+        font-size: 2.6rem;
+    }
+
+    .header-content {
+        background-size: 100%;
+    }
+
+    .header-text {
+        font-size: 2.2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        padding: 4px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-phone nav {
+        position: absolute;
+        top: 12%;
+        left: 80%;
+    }
+
+    .nav-phone nav a {
+        margin: 10%;
+        padding: 10%;
+        border: 1px solid #333;
+        border-radius: 15px;
+    }
+
+    .nav-active {
+        align-items: flex-end;
+        transition: 0.5s all ease;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin: 8%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .card-header img {
+        width: 60px;
+        height: 60px;
+        margin: 3%;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .nav-footer {
+        flex-direction: row;
+    }
+}
+
+
+/* responsive tablet */
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    header div {
+        justify-content: space-around;
+    }
+
+    header::after {
+        background-size: cover;
+        background-position: 55%;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45%;
+        margin: 2%;
+    }
+
+    .card-header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card p {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+}
+
+
+/* responsive laptop */
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    header div nav {
+        justify-content: flex-end;
+    }
+
+    header::after {
+        background-size: 100%;
+        background-position: center;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 30%;
+        margin: 1%;
+    }
+
+    .card-header {
+        margin: 1%;
+        padding: 2%;
+    }
+
+    .card-header img {
+        width: 60px;
+        height: 60px;
+        margin: 2%;
+    }
+
+    .card p {
+        font-size: 2rem;
+    }
+}
