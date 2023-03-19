@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PearlWeb_template/static/css/main.271bfd2f.css",
+    "main.js": "/PearlWeb_template/static/js/main.5cc8d999.js",
+    "static/media/frame.png": "/PearlWeb_template/static/media/frame.d7a62aa853376094bced.png",
+    "static/media/design.png": "/PearlWeb_template/static/media/design.6528f5a4b6595b95d750.png",
+    "static/media/cross.png": "/PearlWeb_template/static/media/cross.b07864da6f87eb2b365c.png",
+    "static/media/livraison.png": "/PearlWeb_template/static/media/livraison.abd99551e386c234a681.png",
+    "static/media/referencement.png": "/PearlWeb_template/static/media/referencement.bea4f0cb9826b320459d.png",
+    "static/media/conception.png": "/PearlWeb_template/static/media/conception.0f3395df1908244836d0.png",
+    "static/media/fabrication.png": "/PearlWeb_template/static/media/fabrication.ed4f1b1f10375c4971e8.png",
+    "index.html": "/PearlWeb_template/index.html",
+    "main.271bfd2f.css.map": "/PearlWeb_template/static/css/main.271bfd2f.css.map",
+    "main.5cc8d999.js.map": "/PearlWeb_template/static/js/main.5cc8d999.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.271bfd2f.css",
+    "static/js/main.5cc8d999.js"
+  ]
+}
