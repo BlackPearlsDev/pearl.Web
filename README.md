@@ -3,7 +3,7 @@
 <div align='center'>
 
 ![repo last commit](https://img.shields.io/github/last-commit/BlackPearlsDev/PearlWeb_template?style=for-the-badge)
-![repo version](https://img.shields.io/badge/VERSION-2-blue?style=for-the-badge)
+![repo version](https://img.shields.io/github/package-json/v/BlackPearlsDev/PearlWeb_template?style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/BlackPearlsDev/PearlWeb_template?style=for-the-badge)
 
 </div>
