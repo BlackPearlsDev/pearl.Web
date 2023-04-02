@@ -214,7 +214,7 @@ function App() {
 
                 <section className='about little reveal'>
                     <h2>Nos projets</h2>
-                    <Project img={githubBg} alt='Screenshot de mon profil Github' title='Github' para="Vous pouvez découvrir tous nos projets de développement web en un seul endroit. Que ce soit des projets personnels ou des projets professionnels, vous trouverez une grande variété de travaux réalisés avec différents langages de programmation tels que HTML, CSS, JavaScript, React et Node.js. Chaque projet est accompagné d'une description détaillée de ses fonctionnalités ainsi que d'un lien pour y accéder. N'hésitez pas à explorer ma page GitHub pour voir mes réalisations et pour en savoir plus sur mon travail."></Project>
+                    <Project img={githubBg} alt='Screenshot de mon profil Github' title='Github' para="Vous pouvez découvrir tous nos projets de développement web en un seul endroit. Que ce soit des projets personnels ou des projets professionnels, vous trouverez une grande variété de travaux réalisés avec différents langages de programmation et librairies tels que HTML, CSS, JavaScript, React et Node.js. Chaque projet est accompagné d'une description détaillée de ses fonctionnalités ainsi que d'un lien pour y accéder. N'hésitez pas à explorer notre page GitHub pour voir nos réalisations et pour en savoir plus sur notre travail."></Project>
                 </section>
 
                 {widthScreen > 767 && (

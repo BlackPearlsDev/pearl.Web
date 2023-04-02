@@ -7,7 +7,7 @@ function Project(props) {
             <article className='card-project-about'>
                 <h2>{props.title}</h2>
                 <p>{props.para}</p>
-                <a href='https://github.com/BlackPearlsDev' target={'_blank'} rel='noreferrer'>Voir mon travail</a>
+                <a href='https://github.com/BlackPearlsDev' target={'_blank'} rel='noreferrer'>Voir notre travail</a>
             </article>
         </section>
     )
