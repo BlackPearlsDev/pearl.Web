@@ -117,7 +117,7 @@ function App() {
                             <div className='typed-text'>
                                 <span ref={el} className='header-text'></span>
                             </div>
-                            <p><span className='enterprise-txt'>pearl.Web</span>  est une entreprise de services pour vous accompagner dans vos projets web.</p>
+                            <p><span className='enterprise-txt'>pearl<span>.</span>Web</span>  est une entreprise de services pour vous accompagner dans vos projets web.</p>
                         </article>
 
                         {widthScreen > 767 && (
@@ -244,7 +244,7 @@ function App() {
                         <a href="https://www.linkedin.com/in/jeremy-detrain-1b543a157/" target={'_blank'} rel='noreferrer'>Linkedin</a>
                     </div>
                 </nav>
-                <p>pearl.Web © 2023 - ∞</p>
+                <p>pearl<span>.</span>Web © 2023 - ∞</p>
             </footer>
         </>
     );
