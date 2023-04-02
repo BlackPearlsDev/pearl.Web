@@ -8,4 +8,4 @@
 
 </div>
 
-En ligne à cette adresse: https://blackpearlsdev.github.io/pearl.Web
+En ligne à cette adresse <a href='https://blackpearlsdev.github.io/pearl.Web' target='_blank' style='text-transform:uppercase; font-weight:bold;'>ici</a>
