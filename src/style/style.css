@@ -476,7 +476,7 @@ footer p {
     }
 
     .about {
-        padding: 64px 0;
+        padding: 96px 0;
     }
 
     .content > * {
@@ -619,6 +619,11 @@ footer p {
         gap: 8px;
         font-size: 2rem;
     }
+
+    .link-nav {
+        padding: 0;
+    }
+
 }
 
 /* responsive tablet */

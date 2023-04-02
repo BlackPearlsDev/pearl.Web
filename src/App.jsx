@@ -79,7 +79,7 @@ function App() {
                         <a href='#' className='head-title'>pearl<span>.</span>Web</a>
                         <div>
                             <a href="#services">Services</a>
-                            <a href="#projects" rel="noreferrer">Projets</a>
+                            <a href="#projects">Projets</a>
                             <a href="mailto:jeremydetrain.pro@gmail.com">Contact</a>
                         </div>
                     </nav>
@@ -101,9 +101,9 @@ function App() {
                             </button>
 
                             <nav className={isToggle ? 'nav-active' : 'nav-inactive'}>
-                                <a href="#services">Services</a>
-                                <a href="#projects" rel="noreferrer">Projets</a>
-                                <a href="mailto:jeremydetrain.pro@gmail.com">Contact</a>
+                                <button onClick={handleToggle}><a href="#services" className='link-nav'>Services</a></button>
+                                <button onClick={handleToggle}><a href="#projects" className='link-nav'>Projets</a></button>
+                                <button onClick={handleToggle}><a href="mailto:jeremydetrain.pro@gmail.com" className='link-nav'>Contact</a></button>
                             </nav>
                         </div>
                     </>
