@@ -8,4 +8,4 @@
 
 </div>
 
-En ligne à cette adresse: https://blackpearlsdev.github.io/PearlWeb_template
+En ligne à cette adresse: https://blackpearlsdev.github.io/pearl.Web
