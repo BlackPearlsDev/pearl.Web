@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pearl.Web/static/css/main.20a98106.css",
-    "main.js": "/pearl.Web/static/js/main.a3d6b3d7.js",
+    "main.js": "/pearl.Web/static/js/main.d306c735.js",
     "static/media/Gilmer Regular.otf": "/pearl.Web/static/media/Gilmer Regular.fc8ac2cfa82256e66797.otf",
     "static/media/github_bg.png": "/pearl.Web/static/media/github_bg.cdc529764c9cd27a13c7.png",
     "static/media/background_noise.png": "/pearl.Web/static/media/background_noise.b12b2a98eef31a803cb2.png",
     "static/media/eclipse.svg": "/pearl.Web/static/media/eclipse.860f463142c33f95c9e9a3686decb0df.svg",
     "index.html": "/pearl.Web/index.html",
     "main.20a98106.css.map": "/pearl.Web/static/css/main.20a98106.css.map",
-    "main.a3d6b3d7.js.map": "/pearl.Web/static/js/main.a3d6b3d7.js.map"
+    "main.d306c735.js.map": "/pearl.Web/static/js/main.d306c735.js.map"
   },
   "entrypoints": [
     "static/css/main.20a98106.css",
-    "static/js/main.a3d6b3d7.js"
+    "static/js/main.d306c735.js"
   ]
 }
