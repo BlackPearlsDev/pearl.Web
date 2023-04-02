@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PearlWeb_template/static/css/main.caba3d93.css",
-    "main.js": "/PearlWeb_template/static/js/main.5ac0ec04.js",
+    "main.css": "/PearlWeb_template/static/css/main.a665fb90.css",
+    "main.js": "/PearlWeb_template/static/js/main.8d60b2d4.js",
     "static/media/Gilmer Regular.otf": "/PearlWeb_template/static/media/Gilmer Regular.fc8ac2cfa82256e66797.otf",
     "static/media/github_bg.png": "/PearlWeb_template/static/media/github_bg.cdc529764c9cd27a13c7.png",
     "static/media/background_noise.png": "/PearlWeb_template/static/media/background_noise.b12b2a98eef31a803cb2.png",
     "static/media/eclipse.svg": "/PearlWeb_template/static/media/eclipse.860f463142c33f95c9e9a3686decb0df.svg",
     "index.html": "/PearlWeb_template/index.html",
-    "main.caba3d93.css.map": "/PearlWeb_template/static/css/main.caba3d93.css.map",
-    "main.5ac0ec04.js.map": "/PearlWeb_template/static/js/main.5ac0ec04.js.map"
+    "main.a665fb90.css.map": "/PearlWeb_template/static/css/main.a665fb90.css.map",
+    "main.8d60b2d4.js.map": "/PearlWeb_template/static/js/main.8d60b2d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.caba3d93.css",
-    "static/js/main.5ac0ec04.js"
+    "static/css/main.a665fb90.css",
+    "static/js/main.8d60b2d4.js"
   ]
 }
