@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pearl.Web/static/css/main.77e5fd49.css",
-    "main.js": "/pearl.Web/static/js/main.03f60b11.js",
+    "main.css": "/pearl.Web/static/css/main.35ea471d.css",
+    "main.js": "/pearl.Web/static/js/main.bf451b58.js",
     "static/media/Gilmer Regular.otf": "/pearl.Web/static/media/Gilmer Regular.fc8ac2cfa82256e66797.otf",
     "static/media/github_bg.png": "/pearl.Web/static/media/github_bg.cdc529764c9cd27a13c7.png",
     "static/media/background_noise.png": "/pearl.Web/static/media/background_noise.b12b2a98eef31a803cb2.png",
     "static/media/eclipse.svg": "/pearl.Web/static/media/eclipse.860f463142c33f95c9e9a3686decb0df.svg",
     "index.html": "/pearl.Web/index.html",
-    "main.77e5fd49.css.map": "/pearl.Web/static/css/main.77e5fd49.css.map",
-    "main.03f60b11.js.map": "/pearl.Web/static/js/main.03f60b11.js.map"
+    "main.35ea471d.css.map": "/pearl.Web/static/css/main.35ea471d.css.map",
+    "main.bf451b58.js.map": "/pearl.Web/static/js/main.bf451b58.js.map"
   },
   "entrypoints": [
-    "static/css/main.77e5fd49.css",
-    "static/js/main.03f60b11.js"
+    "static/css/main.35ea471d.css",
+    "static/js/main.bf451b58.js"
   ]
 }
