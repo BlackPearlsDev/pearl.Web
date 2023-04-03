@@ -1,3 +1,6 @@
+/* RSUITE */
+@import '~rsuite/dist/rsuite.min.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
@@ -20,9 +23,24 @@ html {
 }
 
 body {
-    background-color: #141519;
     background-image: url('../assets/background_noise.png');
     color: #eff0f3;
+}
+
+.txt-light {
+    color: #1d1f25 !important;
+}
+
+.border-light {
+    border: 1px solid #1d1f25 !important;
+}
+
+.bcg-light {
+    background-color: lightgray !important;
+}
+
+.bcg2-light {
+    background-color: rgb(220, 220, 220) !important;
 }
 
 header {
@@ -72,8 +90,8 @@ nav a {
     font-family: 'Gilmer', sans-serif;
     font-feature-settings: 'liga' off;
     font-weight: 400;
-    color: #eff0f3;
-    text-decoration: none;
+    color: #eff0f3 !important;
+    text-decoration: none !important;
     margin: 0 3%;
     padding: 12px 24px;
     transition: 0.3s all ease;
@@ -86,6 +104,24 @@ nav a:hover {
     background-color: #1d1f25;
     border-radius: 50px;
     transition: 0.3s all ease;
+}
+
+.nav-light a:hover {
+    background-color: lightgray;
+}
+
+.nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-desktop label {
+    padding: 12px 30px;
+}
+
+.rs-toggle-presentation {
+    background-color: #145C9E !important;
 }
 
 button {
@@ -396,7 +432,7 @@ header div img {
     color: #eff0f3;
     transition: 0.8s all ease;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .card-project-about a:hover {
@@ -441,13 +477,20 @@ footer p span {
 }
 
 .icon-link svg {
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
     margin-right: 1rem;
 }
 
 .icon-link a {
     color: #000000;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
 }
 
 .arrow-down {
@@ -456,15 +499,14 @@ footer p span {
 
 .arrow-down.active {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     bottom: 3%;
     right: 1%;
     position: fixed;
     overflow-y: scroll;
     overflow-x: hidden;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, #00B5F7 0%, #863BEF 100%);
+    background-color: #eff0f3;
     border-radius: 50%;
     padding: 10px;
     z-index: 100;
@@ -558,7 +600,6 @@ footer p span {
 
     footer p {
         font-size: 1.6rem;
-        margin-top: 22px;
     }
 }
 
@@ -613,7 +654,7 @@ footer p span {
         display: flex;
         flex-direction: column;
         position: absolute;
-        background: url('../assets/background_noise.png'), rgba(20, 21, 26, 0.95);
+        background: url('../assets/background_noise.png'), rgba(15, 19, 26, 0.95);
         backdrop-filter: blur(3px);
         top: 78px;
         right: 0;
