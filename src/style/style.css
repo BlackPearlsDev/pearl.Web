@@ -638,6 +638,14 @@ footer p span {
         transition: 0.3s all ease;
     }
 
+    .nav-phone .btn-light:hover {
+        background-color: #eff0f3;
+    }
+
+    .nav-phone .btn-light a:hover {
+        background-color: transparent;
+    }
+
     .nav-inactive {
         display: flex;
         flex-direction: column;
@@ -660,6 +668,11 @@ footer p span {
         right: 0;
         transition: all 0.5s ease;
         z-index: 1;
+    }
+
+    .nav-active.nav-light {
+        background-color: rgba(235, 235, 235, 0.80);
+        background-image: none;
     }
 
     nav a {

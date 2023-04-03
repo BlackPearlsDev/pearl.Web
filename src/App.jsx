@@ -95,25 +95,25 @@ function App() {
                         </nav>
                     ) : (
                         <>
-                            <div className='nav-phone'>
+                            <div className={theme === 'light' ? 'nav-phone nav-light' : 'nav-phone'}>
                                 {/* eslint-disable-next-line */}
-                                <a href='#' className='head-title'>pearl<span>.</span>Web</a>
-                                <button onClick={handleToggle}>
+                                <a href='#' className={theme === 'light' ? 'head-title txt-light' : 'head-title'}>pearl<span>.</span>Web</a>
+                                <button onClick={handleToggle} className={theme === 'light' ? 'btn-light' : ''}>
                                     {!isToggle ? (
-                                    <svg viewBox="0 0 1024 1024" display="inline-block" stroke="white" fill="white" width="32px" height="32px">
+                                    <svg viewBox="0 0 1024 1024" display="inline-block" stroke="white" fill={theme === 'light' ? '#1d1f25' : '#fff'} width="32px" height="32px">
                                         <path d="M139.636 267.636c0-19.28 15.629-34.909 34.909-34.909h674.909c19.279 0 34.909 15.629 34.909 34.909s-15.63 34.909-34.909 34.909h-674.909c-19.28 0-34.909-15.629-34.909-34.909z"></path><path d="M139.636 512c0-19.279 15.629-34.909 34.909-34.909h674.909c19.279 0 34.909 15.63 34.909 34.909s-15.63 34.909-34.909 34.909h-674.909c-19.28 0-34.909-15.63-34.909-34.909z"></path><path d="M139.636 756.364c0-19.279 15.629-34.909 34.909-34.909h674.909c19.279 0 34.909 15.63 34.909 34.909s-15.63 34.909-34.909 34.909h-674.909c-19.28 0-34.909-15.63-34.909-34.909z"></path>
                                     </svg>
                                     ) : (
-                                        <svg viewBox="0 0 1024 1024" display="inline-block" stroke="white" fill="white" width="32px" height="32px">
+                                        <svg viewBox="0 0 1024 1024" display="inline-block" stroke="white" fill={theme === 'light' ? '#1d1f25' : '#fff'} width="32px" height="32px">
                                             <path d="M242.952 242.952c13.633-13.633 35.736-13.633 49.369 0l219.679 219.679 219.681-219.679c13.633-13.633 35.733-13.633 49.366 0s13.633 35.736 0 49.369l-219.676 219.679 219.676 219.681c13.633 13.633 13.633 35.733 0 49.366s-35.733 13.633-49.366 0l-219.681-219.676-219.679 219.676c-13.633 13.633-35.736 13.633-49.369 0s-13.633-35.733 0-49.366l219.679-219.681-219.679-219.679c-13.633-13.633-13.633-35.736 0-49.369z"></path>
                                         </svg>
                                     )}
                                 </button>
 
-                                <nav className={isToggle ? 'nav-active' : 'nav-inactive'}>
-                                    <button onClick={handleToggle}><a href="#services" className='link-nav'>Services</a></button>
-                                    <button onClick={handleToggle}><a href="#projects" className='link-nav'>Projets</a></button>
-                                    <button onClick={handleToggle}><a href="mailto:jeremydetrain.pro@gmail.com" className='link-nav'>Contact</a></button>
+                                <nav className={isToggle ? theme === 'light' ? 'nav-active nav-light' : 'nav-active' : 'nav-inactive'}>
+                                    <button onClick={handleToggle} className={theme === 'light' ? 'btn-light' : ''}><a href="#services" className={theme === 'light' ? 'link-nav txt-light' : 'link-nav'}>Services</a></button>
+                                    <button onClick={handleToggle} className={theme === 'light' ? 'btn-light' : ''}><a href="#projects" className={theme === 'light' ? 'link-nav txt-light' : 'link-nav'}>Projets</a></button>
+                                    <button onClick={handleToggle} className={theme === 'light' ? 'btn-light' : ''}><a href="mailto:jeremydetrain.pro@gmail.com" className={theme === 'light' ? 'link-nav txt-light' : 'link-nav'}>Contact</a></button>
                                 </nav>
                             </div>
                         </>
